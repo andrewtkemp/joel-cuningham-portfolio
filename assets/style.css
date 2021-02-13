@@ -2,20 +2,6 @@ body{
     margin: 0px;
 }
 
-@media only screen and (max-width: 992px) {
-    .image{
-        flex-direction: column;
-        width: 100%;
-    }
-} 
-
-@media only screen and (max-width: 768px) {
-    .image{
-        flex-direction: column;
-        width: 100%;
-    }
-}
-
 header{
     display: flex;
     flex-direction: row;
@@ -121,6 +107,10 @@ figure{
 
 }
 
+.project{
+    flex: 1 0 33%;
+}
+
 .image{
     display: flex;
     flex-basis: flex-end;
@@ -132,7 +122,7 @@ figure{
     transition: all 0.5s;
     border-color: chartreuse;
     background-color: purple;
-    margin: 0px;
+    margin: 10px;
 }
 
 .image img{
@@ -140,8 +130,8 @@ figure{
     max-width: 100%;
     object-fit: cover;
     vertical-align: bottom;
-    padding: 0px;
-    margin: 0px;
+    padding: 5px;
+    margin: 5px;
 }
 
 .contact-me{
@@ -176,3 +166,16 @@ figure{
     color:burlywood
 }
 
+@media only screen and (max-width: 992px) {
+    .work{
+        flex-direction: column;
+        width: 100%;
+    }
+} 
+
+@media only screen and (max-width: 768px) {
+    .work{
+        flex-direction: column;
+        width: 100%;
+    }
+}
