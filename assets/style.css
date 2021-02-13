@@ -4,31 +4,77 @@ body{
 header{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
     background-color: purple;
     margin: 0px;
     padding: 10px;
 }
 
-.main-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center
-}
-
-.order{
+nav{
     display: flex;
     flex-direction: row;
-    list-style: none;
-    justify-content: flex-start;
-    padding:10px;
-    margin: 10px;
-}
-.buttons{
-     margin: 10px;
-     padding: 10px;
-     color: black;
+    flex-wrap: wrap;
 }
 
+nav a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+    margin-right: 10px;
+    transition: all 0.25s ease-in;
+    font-size: 1.4rem;
+}
+
+nav a:hover{
+    background-size: 100% 100%;
+    color:burlywood
+}
+
+.self{
+    background: purple;
+    background-size: cover;
+    background-position: center;
+    min-height: 30vh;
+    padding: 2% 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: left;
+    border-style: solid;
+    border-width: 2px;
+    border-color: chartreuse;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.self img{
+    display: flex;
+    justify-content: center;
+    max-height: 50%;
+    max-width: 50%;
+}
+
+.self div{
+    flex: 0 0 90%;
+}
+
+.self h2{
+    background-color: saddlebrown;
+    color: black;
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 2.3rem;
+    line-height: 1.2;
+    display: inline;
+}
+
+.wrapping{
+    max-width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 .about-me{
     display: flex;
     justify-content: space-between;
@@ -36,12 +82,24 @@ header{
     border-width: 2px;
     border-color:  chartreuse;
     background-color: purple;
-    padding: 10px;
+    padding: 0px;
+    margin: 0px;
 }
 
+figure{
+    display: flex;
+    flex-wrap: wrap;
+}
+.self-image{
+    max-height: 400px;
+    max-width:50%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
 .work{   
     display: flex;
     justify-content: space-between;
+    max-width: 100%;
 }
 
 .image{
@@ -50,6 +108,7 @@ header{
     border-style: solid;
     border-width: 2px;
     border-color: chartreuse;
+    max-width: 100%;
 }
 
 .contact-me{
