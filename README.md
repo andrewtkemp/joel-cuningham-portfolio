@@ -4,6 +4,6 @@ Portfolio information coded by myself using online sources and prior class infor
 
 https://cunnjoel.github.io/joel-cuningham-portfolio/
 
-<img scr="./assets/images/screenshot1.png" alt=sreenShot><img>
+<img scr="./assets/images/screenshot1.png" alt=sreenShot></img>
 
-<img scr="./assets/images/screenshot2.png" alt=screenShot><img>
+<img scr="./assets/images/screenshot2.png" alt=screenShot></img>
