@@ -1,5 +1,9 @@
 body{
+    background-color: lightgrey;
     margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header{
@@ -8,9 +12,19 @@ header{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-color: purple;
     margin: 0px;
     padding: 10px;
+}
+
+.container{
+    margin: 0px;
+    flex-direction: row;
+    
+}
+
+.margin{
+    border: lightgrey;
+    margin-left: 10px;
 }
 
 nav{
@@ -33,43 +47,9 @@ nav a:hover{
     color:burlywood
 }
 
-.self{
-    background: purple;
-    background-size: cover;
-    background-position: center;
-    min-height: 30vh;
-    padding: 2% 6%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    text-align: left;
-    border-style: solid;
-    border-width: 2px;
-    border-color: chartreuse;
-    max-width: 100%;
-    max-height: 100%;
-    align-items: center;
-}
-
-.self img{
-    display: flex;
-    justify-content: center;
-    max-height: 50%;
-    max-width: 50%;
-}
-
-.self div{
-    flex: 0 0 90%;
-}
-
-.self h2{
-    background-color: saddlebrown;
-    color: black;
-    margin: 0;
-    padding: 5px 10px;
-    font-size: 2.3rem;
-    line-height: 1.2;
-    display: inline;
+img{
+    width: 300px;
+    height: 350px;
 }
 
 .wrapping{
@@ -77,40 +57,56 @@ nav a:hover{
     margin-left: 0px;
     margin-right: 0px;
 }
-.about-me{
-    display: flex;
-    justify-content: space-between;
-    border-style: solid;
-    border-width: 2px;
-    border-color:  chartreuse;
-    background-color: purple;
-    padding: 0px;
-    margin: 0px;
-}
 
 figure{
     display: flex;
     flex-wrap: wrap;
 }
 .self-image{
-    max-height: 400px;
-    max-width:50%;
+    max-height: 200px;
+    max-width: 50%;
     object-fit: cover;
     vertical-align: bottom;
 }
-.work{   
+.col-container{   
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     justify-content: flex-start;
-    background-color: purple;
-
 }
 
+.homework1{
+    background-image: url("../assets/images/password-gen.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex:33%;
+    height: 200px;
+}
+
+.homework2{
+    background-image: url("../assets/images/day-planner.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex:33%;
+}
+
+.homework3{
+    background-image: url("../assets/images/weather-app.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex:33%;
+}
+.set{
+    justify-content: center;
+}
 .project{
-    flex: 1 0 33%;
-}
+    background-image: url("../assets/images/event-plan-project.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 33%;
+    height: 200px;
 
+}
 .image{
     display: flex;
     flex-basis: flex-end;
@@ -120,24 +116,20 @@ figure{
     border-style: solid;
     border-width: 2px;
     transition: all 0.5s;
-    border-color: chartreuse;
-    background-color: purple;
+    border-color: black;
+    justify-content: center;
     margin: 10px;
+    
 }
 
-.image img{
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: cover;
-    vertical-align: bottom;
-    padding: 5px;
-    margin: 5px;
+.border{
+    background-color: lightgrey;
 }
 
 .contact-me{
     display: flex;
     justify-content: space-between;
-    background-color: purple;
+    
 }
 
 .contacts{

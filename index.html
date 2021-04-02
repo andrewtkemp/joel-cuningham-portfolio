@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Joel Cunningham</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/style.css"/>
 </head>
 
@@ -21,35 +22,41 @@
             <a class=buttons href="#contact-me">Contact Me</a> 
          </nav>
     </header>
-
-    <section class="self">
-        <div>
-            <img src="./assets/images/self.jpg" alt="Joel Cunningham"></img>
-            <h2>Joel Cunningham</h2>
-        </div>
-    </section>
-
-    <!-- bulk of information -->
-    <main class="wrapping">
-        <section id="about-me" class="about-me">
+   
+    <div class="container col-conatianer">
+        <picture class="col">
+            <div class="float-start">
+                <img src="./assets/images/self.jpg" class="img-thumbnail rounded" alt="Joel Cunningham"></img>
+                <h2>Joel Cunningham</h2>
+            </div>
+        </picture>
+        <div id="about-me" class="about-me col">
             <h2>About Me</h2>
             <p>text to come later</p>
-        </section>
+        </div>
+    </div>
+    
 
+    <!-- bulk of information -->
+    <main class="container">
         <section id="work" class="work">
             <h2> Work </h2>
-            <article class="image project">  
-                <img src="./assets/images/images.png" alt="image to come">
-                <h3>Project 1</h3>
-            </article>
-            <article class="image">
-                <img src="./assets/images/images (1).jfif" alt="image to come">
-                <h3>Project 2</h3>
-            </article>
-            <article class="image">
-                <img src="./assets/images/images.jfif" alt="image to come">
-                <h3>Project 3</h3>
-            </article>
+            <div class="col-container">
+                <a href="https://cunnjoel.github.io/password-generator-homework/" class="image homework1"><article>  
+                    <div class="border border-dark"><h3>Homework 1</h3></div>
+                </article></a>
+                <a href="https://cunnjoel.github.io/work-day-scheduler/" class="image homework2"><article>
+                    <div class="border border-dark"><h3>Homework 2</h3></div>
+                </article></a>
+                <a href="https://cunnjoel.github.io/weather-dashboard-homework/" class="image homework3"><article>
+                    <div class="border border-dark"><h3>Homework 3</h3></div>
+                </article></a>
+            </div>  
+            <div class="col-container set">
+                <a href="https://nateghsc09.github.io/Project-1-Sports-Event-Search/" class="image project"><article>
+                    <div class="border border-dark"><h3>Project</h3></div>
+                </article></a>
+            </div>
         </section>
      
         <section id="contact-me" class="contact-me">
@@ -74,5 +81,7 @@
         </section>
     
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 </body>
 </html>
