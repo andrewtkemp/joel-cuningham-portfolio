@@ -1,9 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: lightgrey;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 header{
@@ -12,14 +12,13 @@ header{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    margin: 0px;
-    padding: 10px;
+    margin-left: 10px;
 }
 
-.container{
+main{
+    display: flex;
+    flex-wrap: wrap;
     margin: 0px;
-    flex-direction: row;
-    
 }
 
 .margin{
@@ -73,13 +72,14 @@ figure{
     justify-content: space-between;
     flex-direction: row;
     justify-content: flex-start;
+    margin: 0px;
 }
 
 .homework1{
     background-image: url("../assets/images/password-gen.png");
     background-repeat: no-repeat;
     background-size: contain;
-    flex:33%;
+    
     height: 200px;
 }
 
@@ -87,17 +87,22 @@ figure{
     background-image: url("../assets/images/day-planner.png");
     background-repeat: no-repeat;
     background-size: contain;
-    flex:33%;
+    
 }
 
 .homework3{
     background-image: url("../assets/images/weather-app.png");
     background-repeat: no-repeat;
     background-size: contain;
-    flex:33%;
+    
 }
 .set{
     justify-content: center;
+}
+
+.git{
+    border: 1px solid black;
+    background-color: lightgrey;
 }
 .project{
     background-image: url("../assets/images/event-plan-project.png");
@@ -106,6 +111,9 @@ figure{
     width: 33%;
     height: 200px;
 
+}
+.work{
+    margin: 0px;
 }
 .image{
     display: flex;
