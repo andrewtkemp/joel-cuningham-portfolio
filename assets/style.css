@@ -110,8 +110,16 @@ figure{
     background-size: contain;
     width: 33%;
     height: 200px;
-
 }
+
+.project2{
+    background-image: url("../assets/images/bubbblr.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 33%;
+    height: 200px;
+}
+
 .work{
     margin: 0px;
 }
@@ -167,15 +175,13 @@ figure{
 }
 
 @media only screen and (max-width: 992px) {
-    .work{
-        flex-direction: column;
-        width: 100%;
+    .image{
+        width: 50%;
     }
 } 
 
-@media only screen and (max-width: 768px) {
-    .work{
-        flex-direction: column;
-        width: 100%;
+@media only screen and (max-width: 400px) {
+    .image{
+        width: 100%;;
     }
 }
