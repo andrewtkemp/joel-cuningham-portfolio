@@ -4,7 +4,7 @@ function Header() {
     return (
         <header>
             <h1>Joel Cunningham</h1>
-            <li className="nav-item">
+            {/* <li className="nav-item">
                 <Link
                     to="/about"
                     className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
@@ -27,7 +27,7 @@ function Header() {
                 >
                     Contact Me
                 </Link>
-            </li>
+            </li> */}
         </header >
     );
 }
