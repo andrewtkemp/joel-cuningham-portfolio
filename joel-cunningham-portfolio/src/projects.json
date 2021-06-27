@@ -18,20 +18,20 @@
         "name": "Weather Dashboard",
         "link": "https://cunnjoel.github.io/weather-dashboard-homework/",
         "repo": "https://github.com/Cunnjoel/weather-dashboard-homework.git",
-        "image": "../assets/images/weather-app.png"
+        "image": "/../assets/images/weather-app.png"
     },
     {
         "id": 4,
         "name": "Sports Event Search",
         "link": "https://nateghsc09.github.io/Project-1-Sports-Event-Search/",
         "repo": "https://github.com/nateghsc09/Project-1-Sports-Event-Search.git",
-        "image": "../assets/images/event-plan-project.png"
+        "image": "./assets/images/event-plan-project.png"
     },
     {
         "id": 5,
         "name": "Bubbblr Brainstorming app",
         "link": "https://bubbblr.herokuapp.com/login",
         "repo": "https://github.com/davidboerm/bubbblr.git",
-        "image": "../assets/images/bubbblr.png"
+        "image": "/./assets/images/bubbblr.png"
     }
 ]

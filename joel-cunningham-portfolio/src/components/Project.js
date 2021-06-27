@@ -1,16 +1,17 @@
+
 function Project(props) {
     return (
       <div className="card">
         <div className="img-container">
-          <img alt={props.name} src={props.image} />
+          <img src={props.image} alt={props.name} />
         </div>
         <div className="content">
           <ul>
             <li>
-              <strong href={props.link}>{props.name}</strong> 
+              <strong><a href={props.link}>{props.name}</a></strong> 
             </li>
             <li>
-              <strong href={props.repo}>Git Repository:</strong>
+              <strong><a href={props.repo}>Git Repository</a></strong>
             </li>
           </ul>
         </div>

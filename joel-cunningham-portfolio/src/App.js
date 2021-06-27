@@ -5,13 +5,12 @@ import Header from './components/Header';
 import Project from './components/Project';
 import Footer from './components/Footer';
 import projects from './projects.json';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
-    projects
+    projects,
   };
 
   render() {
@@ -27,9 +26,9 @@ class App extends Component {
             <Project
               id={project.id}
               name={project.name}
-              image={project.image}
               repo={project.repo}
               link={project.link}
+              image={project.image}
             />
           ))}
           <Footer />
