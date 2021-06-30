@@ -8,6 +8,7 @@ import Contact from './components/pages/Contact';
 import Home from './components/pages/Home'
 import './App.css';
 import projects from './data/projects.json';
+import './style.css';
 
 class App extends Component {
   // Setting this.state.friends to the friends json array
