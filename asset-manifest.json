@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8051c223.chunk.css",
+    "main.js": "/static/js/main.c5ff4455.chunk.js",
+    "main.js.map": "/static/js/main.c5ff4455.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.22136990.js",
+    "runtime-main.js.map": "/static/js/runtime-main.22136990.js.map",
+    "static/js/2.a064d59f.chunk.js": "/static/js/2.a064d59f.chunk.js",
+    "static/js/2.a064d59f.chunk.js.map": "/static/js/2.a064d59f.chunk.js.map",
+    "static/js/3.9ee0d6b2.chunk.js": "/static/js/3.9ee0d6b2.chunk.js",
+    "static/js/3.9ee0d6b2.chunk.js.map": "/static/js/3.9ee0d6b2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8051c223.chunk.css.map": "/static/css/main.8051c223.chunk.css.map",
+    "static/js/2.a064d59f.chunk.js.LICENSE.txt": "/static/js/2.a064d59f.chunk.js.LICENSE.txt",
+    "static/media/bubbblr.364aa3cf.png": "/static/media/bubbblr.364aa3cf.png",
+    "static/media/day-planner.3c0c656f.png": "/static/media/day-planner.3c0c656f.png",
+    "static/media/event-plan-project.311901e2.png": "/static/media/event-plan-project.311901e2.png",
+    "static/media/password-gen.429b42fb.png": "/static/media/password-gen.429b42fb.png",
+    "static/media/self.a7c2a606.jpg": "/static/media/self.a7c2a606.jpg",
+    "static/media/weather-app.dbdaac4a.png": "/static/media/weather-app.dbdaac4a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22136990.js",
+    "static/js/2.a064d59f.chunk.js",
+    "static/css/main.8051c223.chunk.css",
+    "static/js/main.c5ff4455.chunk.js"
+  ]
+}
