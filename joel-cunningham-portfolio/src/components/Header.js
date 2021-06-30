@@ -1,33 +1,36 @@
+import {Link} from 'react-router-dom';
 
+const styles = {
+   padding: {
+    marginBottom: "10px"
+   }
+  };
 
 function Header() {
     return (
-        <header>
-            <h1>Joel Cunningham</h1>
-            {/* <li className="nav-item">
-                <Link
-                    to="/about"
-                    className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
-                >
-                    About Me
-                </Link>
-            </li>
+        <header style={styles.padding}>
+            <Link
+                to="/"
+                className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
+            >
+                <h1>Joel Cunningham</h1>
+            </Link>
             <li className="nav-item">
                 <Link
                     to="/work"
-                    className={location.pathname === "/blog" ? "nav-link active" : "nav-link"}
+                    className={window.location.pathname === "/Work" ? "nav-link active" : "nav-link"}
                 >
                     Work
                 </Link>
             </li>
             <li className="nav-item">
                 <Link
-                    to="/contact"
-                    className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+                    to="/Contact"
+                    className={window.location.pathname === "/Contact" ? "nav-link active" : "nav-link"}
                 >
                     Contact Me
                 </Link>
-            </li> */}
+            </li>
         </header >
     );
 }

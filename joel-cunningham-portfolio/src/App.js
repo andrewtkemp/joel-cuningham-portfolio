@@ -2,56 +2,43 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { } from 'react-bootstrap/';
 import Header from './components/Header';
-import Project from './components/Project';
 import Footer from './components/Footer';
-import projects from './projects.json';
+import Project from './components/pages/Project';
+import Contact from './components/pages/Contact';
+import Home from './components/pages/Home'
 import './App.css';
+import projects from './data/projects.json';
 
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
-    projects,
+    projects
   };
-
-  render() {
-    return (
-      <Router>
-        <div className="container">
-          <Header />
-          {/* <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/blog" component={Blog} />
-          <Route path="/contact" component={Contact} /> */}
-          {this.state.projects.map(project => (
-            <Project
-              id={project.id}
-              name={project.name}
-              repo={project.repo}
-              link={project.link}
-              image={project.image}
-            />
-          ))}
-          <Footer />
-        </div>
-      </Router>
-    );
-  }
+ 
+render() {
+  return (
+    <Router>
+      <div>
+        <Header />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/work" component={() => {
+            return this.state.projects.map(project => (
+              <Project
+                id={project.id}
+                name={project.name}
+                repo={project.repo}
+                link={project.link}
+                image={project.image}
+              />
+            ))
+        }} />
+        <Route path="/contact" component={Contact} />
+        <Footer />
+      </div>
+    </Router>
+  );
+}
 }
 
+
 export default App;
-
-
-{/* <header className="App-header">
-<img src={logo} className="App-logo" alt="logo" />
-<p>
-  Edit <code>src/App.js</code> and save to reload.
-</p>
-<a
-  className="App-link"
-  href="https://reactjs.org"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Learn React
-</a>
-</header> */}
