@@ -18,7 +18,7 @@ class App extends Component {
  
 render() {
   return (
-    <Router>
+    <HashRouter>
       <div>
         <Header />
         <Route exact path="/" component={Home} />
@@ -36,7 +36,7 @@ render() {
         <Route path="/contact" component={Contact} />
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 }
