@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { HashRouter as Router, Route } from 'react-router-dom';
-import { } from 'react-bootstrap/';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Project from './components/pages/Project';
