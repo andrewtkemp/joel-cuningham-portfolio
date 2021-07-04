@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/joel-cuningham-portfolio/static/css/main.3280de24.chunk.css",
+    "main.js": "/joel-cuningham-portfolio/static/js/main.183d50cf.chunk.js",
+    "main.js.map": "/joel-cuningham-portfolio/static/js/main.183d50cf.chunk.js.map",
+    "runtime-main.js": "/joel-cuningham-portfolio/static/js/runtime-main.b138ca70.js",
+    "runtime-main.js.map": "/joel-cuningham-portfolio/static/js/runtime-main.b138ca70.js.map",
+    "static/js/2.5fa1358a.chunk.js": "/joel-cuningham-portfolio/static/js/2.5fa1358a.chunk.js",
+    "static/js/2.5fa1358a.chunk.js.map": "/joel-cuningham-portfolio/static/js/2.5fa1358a.chunk.js.map",
+    "static/js/3.9791c609.chunk.js": "/joel-cuningham-portfolio/static/js/3.9791c609.chunk.js",
+    "static/js/3.9791c609.chunk.js.map": "/joel-cuningham-portfolio/static/js/3.9791c609.chunk.js.map",
+    "index.html": "/joel-cuningham-portfolio/index.html",
+    "static/css/main.3280de24.chunk.css.map": "/joel-cuningham-portfolio/static/css/main.3280de24.chunk.css.map",
+    "static/js/2.5fa1358a.chunk.js.LICENSE.txt": "/joel-cuningham-portfolio/static/js/2.5fa1358a.chunk.js.LICENSE.txt",
+    "static/media/bubbblr.364aa3cf.png": "/joel-cuningham-portfolio/static/media/bubbblr.364aa3cf.png",
+    "static/media/day-planner.3c0c656f.png": "/joel-cuningham-portfolio/static/media/day-planner.3c0c656f.png",
+    "static/media/event-plan-project.311901e2.png": "/joel-cuningham-portfolio/static/media/event-plan-project.311901e2.png",
+    "static/media/password-gen.429b42fb.png": "/joel-cuningham-portfolio/static/media/password-gen.429b42fb.png",
+    "static/media/self.a7c2a606.jpg": "/joel-cuningham-portfolio/static/media/self.a7c2a606.jpg",
+    "static/media/weather-app.dbdaac4a.png": "/joel-cuningham-portfolio/static/media/weather-app.dbdaac4a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b138ca70.js",
+    "static/js/2.5fa1358a.chunk.js",
+    "static/css/main.3280de24.chunk.css",
+    "static/js/main.183d50cf.chunk.js"
+  ]
+}
